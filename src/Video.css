@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.video {
+  left: 30%;
+  display: flex;
+  flex-direction: column;
+
+  background-color: lightblue;
+  align-items: center;
+  justify-content: flex-start;
+}
+.video > h1 {
+  font-size: 2em;
+  font-family: cursive;
+}
+.video > iframe {
+  margin-top: 25px;
+  width: 400px;
+  height: 220px;
+}
+.video > .text_wrap {
+  margin-top: 10px;
+  padding: 25px;
+  width: 400px;
+}
+.video > p {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1em;
+}
